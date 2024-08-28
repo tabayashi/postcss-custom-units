@@ -42,13 +42,7 @@ Default:
 
 ## Usage
 
-Install:
-
-```shell
-npm install postcss-custom-units --save
-```
-
-Then include the plugin:
+Include the plugin:
 
 ```javascript
 postcss([
