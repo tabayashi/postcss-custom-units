@@ -22,9 +22,9 @@ Yields:
 h1 {
   --unit-bf: 16px;
   --unit-bl: 24px;
-  font-size: 32px;
-  line-height: 66px;
-  margin-top: 6px;
+  font-size: calc(16px * 2);
+  line-height: calc(24px * 2.75);
+  margin-top: calc(24px * .25);
 }
 ```
 
