@@ -38,7 +38,7 @@ module.exports = postcss.plugin('postcss-custom-units', function (opts) {
         unit = units[unit].unit;
         return value + unit;
         */
-        return `calc(${value} * ${units[unit]})`;
+        return `calc(${units[unit]} * ${value})`;
       });
     });
   }
