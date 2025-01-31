@@ -3,6 +3,7 @@
   "version": "0.1.2",
   "description": "A PostCSS plugin allowing for on-the-fly custom units for uniform spacing, vertical-rhythm, and baseline grids.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "mocha"
   },
